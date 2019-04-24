@@ -17,19 +17,19 @@ public class ParkingLot {
 
     }
 
-    public void addCar()
+    public void addVehicle()
     {
 
         if(!isFull()){
              capacity--;
-        System.out.println("Car parked successfully");
+        System.out.println("Vehicle parked successfully");
         }
         else
         System.out.println("No more slot available");
 
     }
 
-    public void removeCar()
+    public void removeVehicle()
     {
         capacity++;
     }
