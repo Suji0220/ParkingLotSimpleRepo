@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Parkable car1= new Car();
-        ParkingLot parkinglot = new ParkingLot(2);
+        ParkingLot parkinglot = new ParkingLot(3);
 
         car1.park(parkinglot);
 
@@ -20,6 +20,10 @@ public class Main {
         suv.park(parkinglot);
 
         Parkable jeep = new Jeep();
+        jeep.park(parkinglot);
+
+        car2.unpark(parkinglot);
+
         jeep.park(parkinglot);
 
 

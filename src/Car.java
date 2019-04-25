@@ -1,16 +1,5 @@
-public class Car implements Parkable{
-    @Override
-    public void park(ParkingLot parkingLot) {
-        parkingLot.addVehicle();
-      //  System.out.println("Car is been parked");
-    }
+public class Car  extends Vehicle{
 
-    @Override
-    public void unpark(ParkingLot parkingLot) {
-        parkingLot.removeVehicle();
-       // System.out.println("car has not been parked");
-
-    }
 
 
 
